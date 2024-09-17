@@ -2,7 +2,8 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "linear_regression": "Linear Regression",
+  "linearRegression": "Linear Regression",
+  "logisticRegression": "Logistic Regression",
   "about": {
     "title": "About",
     "type": "page"
