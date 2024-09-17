@@ -2,8 +2,13 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
+  "hi":"hi",
   "linearRegression": "Linear Regression",
   "logisticRegression": "Logistic Regression",
+  "Knowledge":{
+    "title": "Knowledge Center",
+    "type": "page"
+  },
   "about": {
     "title": "About",
     "type": "page"
