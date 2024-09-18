@@ -1,8 +1,18 @@
-# Nextra Docs Template 
+<!--
+ * @Author: Matroid_Walker adimensioner@gmail.com
+ * @Date: 2024-09-17 20:40:26
+ * @LastEditors: Matroid_Walker adimensioner@gmail.com
+ * @LastEditTime: 2024-09-18 15:15:32
+ * @FilePath: /dev/docs/knowledge_base/README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2024 by Terry Chang, All Rights Reserved. 
+-->
+# My Knowledge Base
+My public knowledge base, created with Nextra. \
+If you also want to try out Nextra, please check the following.
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
-
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+[**Nextra Live Demo →**](https://nextra-docs-template.vercel.app)
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
