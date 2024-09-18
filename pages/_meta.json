@@ -1,8 +1,12 @@
 {
   "index": "Overview",
-  "linearRegression": "Linear Regression",
-  "logisticRegression": "Logistic Regression",
-  "another": "Another Page",
+  "knowledgeBase": "Knowledge Base",
+  "comp4211": "COMP 4211",
+  "comp4901z":"COMP 4901z",
+  "cs224w": "CS 224w [Stanford]",
+  "rec": "推荐算法",
+  "llm": "LLM 应用",
+  "end": "The End",
   "about": {
     "title": "About",
     "type": "page"

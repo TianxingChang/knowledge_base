@@ -1,0 +1,84 @@
+# About Author
+
+```python filename="author.py" {3} copy
+class Author:
+  def __init__(self, name, website, x_account):
+    self.name = name
+    self.website = website
+    self.x_account = x_account
+
+  def contact(self):
+    return self.x_account
+
+
+
+terry = Author("Terry Chang", "https://terry-chang.space", "https://x.com/crazibility")
+
+```
+
+import { useState } from "react";
+import Counters from "../components/counters";
+
+Just a toy button:
+
+<Counters />
+
+<div
+  style={{
+    width: "full",
+    "text-align": "center",
+    "font-weight": "bold",
+    color: "orange",
+    "margin-bottom": "4px",
+    "margin-top": "100px",
+  }}
+>
+  <code> 💫 Buy me a coffee</code>
+</div>
+<div style={{ width: "full", "text-align": "center", "margin-bottom": "20px" }}>
+  <code>Fine, I know you won't. </code>
+</div>
+
+import { Suspense } from "react";
+import { Canvas } from "@react-three/fiber";
+import { useGLTF, OrbitControls } from "@react-three/drei";
+
+export function Model({ url }) {
+  const { scene } = useGLTF(url);
+  return <primitive object={scene} />;
+}
+
+export const StarshipModel = () => {
+  return (
+    <div
+      style={{
+        height: "200px",
+        width: "200px",
+        backgroundColor: "#f0f0f0",
+        borderRadius: "50%",
+        overflow: "hidden",
+        margin: "0 auto",
+      }}
+    >
+      <Canvas camera={{ position: [0, 2, 8], fov: 40 }}>
+        <Suspense fallback={null}>
+          <Model url="/models/coffee_cup_model/scene.gltf" />
+          <OrbitControls enablePan={true} enableZoom={false} />
+        </Suspense>
+        <ambientLight intensity={0.5} />
+        <spotLight
+          position={[10, 10, 10]}
+          angle={0.15}
+          penumbra={1}
+          intensity={1}
+        />
+        <pointLight position={[-10, -10, -10]} intensity={2} />
+      </Canvas>
+    </div>
+  );
+};
+
+<StarshipModel />
+<div style={{ width: "full", "text-align": "center", "margin-top": "20px" }}>
+  ↑ drag it
+</div>
